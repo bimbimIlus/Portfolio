@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-tailwind-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  },
+  "dependencies": {
+    "vite": "^8.0.2"
+  }
+}
