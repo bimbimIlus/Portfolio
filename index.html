@@ -8,12 +8,14 @@
 </head>
 
 <body>
+    <div class="bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen">
+    
     <!-- Header Start -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div>
-                    <a href="#home" class="font-bold text-lg text-primary block py-6">Rana Kusuma Wardhani</a>
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">Bimo Ilham Bayuaji</a>
                 </div>
                 <div class="flex items-center">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -45,7 +47,7 @@
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
                     <h1 class="text-base font-semibold text-primary md:text-xl lg:text-2xl">Selamat datang 💖, perkenalkan saya</h1>
-                    <span class="block font-bold text-dark text-4xl mt-5">Rana Kusuma Wardhani</span>
+                    <span class="block font-bold text-dark text-4xl mt-5">Bimo Ilham Bayuaji</span>
                     <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Web & Mobile <span class="text-blue-300">Developer</span></h2>
                     <p class="font-medium text-secondary mb-10 leading-relaxed">Saya merupakan mahasiswa dari Universitas Amikom Yogyakarta yang menempuh jalur S1 Program Studi <span class="text-dark">Sistem Informasi</span></p>
                     <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya?</a>
@@ -53,7 +55,7 @@
 
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:right-0">
-                        <img src="dist/img/BimoCoolBeut.png" alt="Rana Kusuma Wardhani" class="max-w-full mx-auto">
+                        <img src="dist/img/BimoCoolBeut.png" alt="Bimo Ilham Bayuaji" class="max-w-full mx-auto">
                         <span class="absolute bottom-10 md:bottom-28 lg:bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                             <svg witdh="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path 
@@ -364,7 +366,25 @@
         </div>
     </footer>
     <!-- Footer Section End -->
+    
+    <!-- TOMBOL DARK MODE -->
+    <button id="theme-toggle"
+    class="fixed bottom-5 right-5 z-50 
+            w-12 h-12 
+            flex items-center justify-center 
+            rounded-full 
+            bg-gray-800 text-white 
+            dark:bg-yellow-400 dark:text-black
+            shadow-lg 
+            hover:scale-110 
+            transition duration-300">
+        🌙
+    </button>
+    <!-- TOMBOL DARK MODE -->
+    
+    </div>
 
     <script src="dist/js/script.js"></script>
+
 </body>
 </html>
